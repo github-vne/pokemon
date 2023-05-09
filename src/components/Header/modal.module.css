@@ -1,0 +1,26 @@
+.header {
+    background: #F5DB13;
+    padding: 14px 0 16px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1120px;
+    padding: 0 16px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    font-size: 25px;
+}
+
+.active_route {
+    color: #000;
+    font-weight: 700;
+}
